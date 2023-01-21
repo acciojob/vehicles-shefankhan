@@ -16,6 +16,7 @@ public class Car extends Vehicle {
 
     public void setGears(int gears) {
         this.gears = gears;
+        int nree=2;
     }
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
